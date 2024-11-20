@@ -3,7 +3,7 @@ from tkinter import messagebox
 
 
 class Student:
-    def __init__(self, name, student_id):  # Fixed constructor name
+    def __init__(self, name, student_id):  
         self.name = name
         self.student_id = student_id
         self.grades = []
@@ -114,7 +114,7 @@ class GradeManagementSystem:
         messagebox.showinfo("Class Average", f"Class Average: {class_average:.2f}")
 
 
-if __name__ == "__main__":  # Fixed module name check
+if __name__ == "__main__":  
     root = tk.Tk()
     app = GradeManagementSystem(root)
     root.mainloop()
