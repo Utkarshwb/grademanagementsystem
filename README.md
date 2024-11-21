@@ -7,7 +7,7 @@ The **Student Grade Management System** is a GUI-based application developed usi
 
 ---
 
-## Features
+## ✨Features
 - Add new students with their name and unique ID.
 - Add grades for individual students.
 - View detailed information about a student, including their grades and average.
@@ -36,7 +36,8 @@ The **Student Grade Management System** is a GUI-based application developed usi
 3. Run the application:
     ```bash
    python grademanagement.py
-   
+
+## 🧩 How to use (Flowchart Style!)
 ```mermaid
 graph TD;
     A[🎓 Main Application] --> B[📘 Add Student];
