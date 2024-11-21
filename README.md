@@ -2,7 +2,7 @@
 
 ### this is student grade management system
 
-
+```mermaid
 graph TD;
     A[Main Application] --> B[Add Student];
     A --> C[Add Grade];
