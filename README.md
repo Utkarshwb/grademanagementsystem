@@ -29,13 +29,14 @@ The **Student Grade Management System** is a GUI-based application developed usi
 1. Clone the repository:
    ```bash
    git clone https://github.com/Utkarshwb/grademanagementsystem-System.git
-2.Navigate to the project folder:
+2. Navigate to the project folder:
    ```bash
    cd Student-Grade-Management-System
-```
+   
 3. Run the application:
     ```bash
    python grademanagement.py
+   
 
 
 ```mermaid
