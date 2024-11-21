@@ -2,7 +2,7 @@
 
 # Student Grade Management System
 
-## Objective
+## 🎯Objective
 The **Student Grade Management System** is a GUI-based application developed using Python and Tkinter. The objective of this project is to allow users to manage student data, add grades, and calculate averages in an easy-to-use interface.
 
 ---
@@ -16,7 +16,7 @@ The **Student Grade Management System** is a GUI-based application developed usi
 
 ---
 
-## Implementation
+## ⚙Implementation
 - **Programming Language**: Python
 - **GUI Framework**: Tkinter
 - **Class Design**: Used OOP principles with a `Student` class to encapsulate student data and logic.
@@ -25,7 +25,7 @@ The **Student Grade Management System** is a GUI-based application developed usi
 
 ---
 
-## How to Run
+## ⚙️How to Run
 1. Clone the repository:
    ```bash
    git clone https://github.com/Utkarshwb/grademanagementsystem-System.git
