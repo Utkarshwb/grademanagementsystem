@@ -37,15 +37,28 @@ The **Student Grade Management System** is a GUI-based application developed usi
     ```bash
    python grademanagement.py
    
-
-
 ```mermaid
 graph TD;
-    A[Main Application] --> B[Add Student];
-    A --> C[Add Grade];
-    A --> D[View Student Info];
-    A --> E[Calculate Class Average];
-    B --> F[Student Object];
+    A[🎓 Main Application] --> B[📘 Add Student];
+    A --> C[📊 Add Grade];
+    A --> D[👩‍🎓 View Student Info];
+    A --> E[📈 Calculate Class Average];
+    B --> F[📂 Student Object];
     C --> F;
     D --> F;
     E --> F;
+
+    %% Style Enhancements %%
+    style A fill:#f9f,stroke:#333,stroke-width:2px;
+    style B fill:#9f9,stroke:#333,stroke-width:2px;
+    style C fill:#9cf,stroke:#333,stroke-width:2px;
+    style D fill:#fc9,stroke:#333,stroke-width:2px;
+    style E fill:#c9f,stroke:#333,stroke-width:2px;
+    style F fill:#ffc,stroke:#333,stroke-width:2px;
+
+    %% Highlight Key Interactions %%
+    linkStyle 0 stroke-width:2px,stroke:#333,fill:none;
+    linkStyle 1 stroke-width:2px,stroke:#333,fill:none;
+    linkStyle 2 stroke-width:2px,stroke:#333,fill:none;
+    linkStyle 3 stroke-width:2px,stroke:#333,fill:none;
+
